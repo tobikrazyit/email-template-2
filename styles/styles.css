@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Top nav bar start */
+.responsive-div {
+  padding: 12px 0 0 0;
+  /* margin: 10px 61px 0 56px; */
+  border-radius: 5px;
+  background-color: #dafeff;
+}
+
+.get-started-bellow-large-img img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.responsive-table {
+  width: 100%;
+}
+
+.responsive-th {
+  padding: 19px 0;
+  width: 34%;
+  color: #fff;
+}
+
+.responsive-th img {
+  height: 70px;
+  width: 140px;
+}
+
+.responsive-th-right {
+  padding: 19px 0;
+  width: 32%;
+  text-align: right;
+  color: #000;
+}
+
+.responsive-th-right p {
+  margin: 23px;
+}
+
+.responsive-th-right p:last-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -19px;
+  font-size: 23px;
+}
+
+/* bottom header-main text  Start*/
+.bottom-header-div {
+  padding: 50px 50px 0px 50px;
+  color: #fff;
+  font-family: Kameron;
+}
+
+.bottom-header-main-text {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 49.77px;
+}
+
+.bottom-header-main-para {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bottom-header-div h3 {
+  margin-bottom: 5px;
+  margin-top: 30px;
+  line-height: 1px;
+  font-size: 22px;
+}
+
+.bottom-header-div h4 {
+  font-weight: 300;
+  font-size: 26px;
+  color: #414141;
+}
+
+.bottom-header-div p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.email-confirm-p-text {
+  font-size: 25px;
+  color: #414141;
+}
+
+.footer-div {
+  padding: 12px 0px 0px 0;
+  margin: 1px 15px 0 28px;
+  border-radius: 5px;
+}
+
+.footer-table {
+  width: 100%;
+}
+
+/* .our-service-table{
+    width: 100%;
+} */
+.footer-most-top-table {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* .benefit-top-table {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 10px 40px;
+} */
+
+.footer-most-top-table p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.footer-th-most-top {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-th {
+  padding: 9px 0;
+  width: 34%;
+  color: #fff;
+}
+
+.footer-th p {
+  font-family: Kameron;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.footer-th-right {
+  padding: 0px 0;
+  width: 15%;
+  text-align: right;
+  color: #fff;
+}
+
+.footer-th-right h4 {
+  text-align: left;
+  margin: 5px 0 1px 0px;
+  font-size: 20px;
+  font-family: Kameron;
+}
+
+.footer-th-right ul {
+  margin: 0px 0 0px 16px;
+  padding: 0;
+}
+
+.footer-th-right li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer-th-right li:first-child {
+  margin-left: 1px;
+}
+
+.footer-th-right a img {
+  height: 15px;
+}
+
+.footer-th-right .small-img {
+  height: 15px;
+}
+
+.footer-th-right a {
+  color: #fff !important;
+}
+
+.footer-th-right h4 {
+  text-align: left;
+  margin: 5px 0px 14px 0px;
+  font-size: 25px;
+  font-family: Kameron;
+}
+
+.footer-th-right {
+  padding: 0px 0;
+  /* width: 20%; */
+  text-align: left;
+  color: #fff;
+}
+
+/* .our-service-th-left {
+    padding: 0px 0;
+    width: 40%;
+    text-align: left;
+    color: #fff;
+} */
+
+.btn-get-started {
+  /* background-color: #FB822F; */
+  background-image: linear-gradient(#fb822f, #fb822f);
+  color: white;
+  padding: 12px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Rubik", sans-serif !important;
+}
+
+.btn-get-started:hover {
+  /* background-color: #4b2004; */
+  background: linear-gradient(45deg, #f03d10, #e43011);
+}
+
+/* benefits css  start*/
+
+.benefit-top-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* .benefit-th-card-text {
+  width: 30%;
+  background-color: #fff;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 218, 218),
+    rgb(245, 237, 233)
+  );
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(236, 234, 234);
+  border-radius: 0;
+}  */
+
+.benefit-th-card-text {
+  color: #000;
+  max-width: 517px;
+  box-sizing: border-box;
+  padding-left: 17px;
+  padding-top: 0px;
+  border-left: 5px solid #f76c2e;
+  margin-top: 29px;
+}
+
+/* .benefit-top-table th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.benefit-top-table th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+.benefit-th-card-text img {
+  display: block;
+  margin: 0 auto 10px;
+}
+.benefit-th-card-p-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.benefit-th-card-p--title-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* benefits css end */
+
+/* our service css start */
+
+.our-service-table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+}
+
+.our-service-th-left,
+.our-service-th-right {
+  vertical-align: top;
+  padding: 10px;
+}
+
+.our-service-th-left img {
+  height: auto;
+}
+
+.footer-para {
+  font-family: "Rubik", sans-serif !important;
+  margin-bottom: 0px;
+}
+
+/* our service css end  */
+
+@media (max-width: 576px) {
+  .get-started-bellow-large-img img {
+    width: 268px;
+    max-width: 100%;
+  }
+
+  .responsive-div {
+    margin: 10px 20px;
+  }
+
+  .responsive-th-right {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    display: block;
+  }
+
+  .responsive-th img {
+    height: 65px;
+    width: 153px;
+  }
+
+  .responsive-th-right p:last-child {
+    font-size: 24px;
+    margin: 0px 0px 25px 0;
+  }
+
+  .responsive-th-right p {
+    margin: 3px;
+    font-size: 20px;
+  }
+
+  /* benefits css start */
+
+  .benefit-top-table {
+    display: block;
+    margin: 10px 20px;
+  }
+
+  .benefits-card {
+    display: block !important;
+  }
+
+  .benefit-th-card-text {
+    width: 100%;
+    display: block;
+  }
+
+  .benefit-top-table th {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 10px; */
+  }
+
+  .benefit-top-table th:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .benefit-top-table th:last-child {
+    border-radius: 0 0 10px 10px;
+  }
+
+  /* benefits css end */
+
+  /* our service css start */
+
+  .our-service-th-left th {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    display: block;
+  }
+
+  .our-service-table {
+    display: block;
+  }
+
+  .our-service-th-left,
+  .our-service-th-right {
+    padding: 10px;
+  }
+
+  .our-service-th-right {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .our-service-th-left {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 0px !important;
+  }
+
+  .our-service-th-left img {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  /* our service css end */
+
+  /* bottom header text  */
+  .bottom-header-div {
+    padding: 8px 10px 0px 10px;
+  }
+
+  .bottom-header-main-text {
+    font-size: 25px;
+  }
+
+  .bottom-header-div h3 {
+    font-size: 18px;
+  }
+
+  .bottom-header-div h4 {
+    font-size: 20px;
+  }
+
+  .bottom-header-div p {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+
+  /*  footer most top section  css start */
+
+  .footer-most-top-table p {
+    font-weight: 200;
+    font-size: 13px;
+  }
+
+  /*  footer most top section  css end */
+
+  /* Footer  */
+  .footer-div {
+    margin: 0;
+  }
+
+  .footer-th,
+  .footer-th-right {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .footer-th-most-top {
+    text-align: center;
+    /* padding: 10px; */
+  }
+
+  /* .footer-th-right a img {
+		height: 20px;
+	} */
+
+  .footer-th-right .small-img {
+    height: 15px;
+  }
+
+  .footer-th-right h4 {
+    text-align: center;
+    margin: 5px 0px 14px 0px;
+    font-size: 25px;
+    font-family: Kameron;
+  }
+
+  .footer-th-right ul {
+    margin: 10px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  /* benefits css start */
+
+  .benefit-top-table {
+    display: block;
+    margin: 10px 50px;
+  }
+
+  .benefits-card {
+    display: block !important;
+  }
+
+  .benefit-th-card-text {
+    width: 100%;
+    display: block;
+  }
+
+  .benefit-top-table th {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 10px; */
+  }
+
+  .benefit-top-table th:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .benefit-top-table th:last-child {
+    border-radius: 0 0 10px 10px;
+  }
+
+  /* benefits css end */
+}
